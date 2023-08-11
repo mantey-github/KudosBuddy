@@ -9,7 +9,8 @@ KudosBuddy (Slack Bot) is a simple Laravel-based api designed to recognize, appr
 Follow these steps to set up and test the app in your Slack workspace.
 
 ### Prerequisites
-- Laravel (version X.X)
+- PHP > 7.4
+- Laravel 10 or higher
 - Slack App (create a new app in your Slack workspace)
 
 ### Installation
@@ -50,7 +51,7 @@ Follow these steps to set up and test the app in your Slack workspace.
 ### Usage
 
 #### Sharing Kudos
-To share a kudos with a team member, send a message to the Slack channel where the app is installed:
+To share a kudos with a team member, send a message to the Slack channel where KudosBuddy is installed:
    ```bash
    Kudos to @team_member_name your_message_here
    ```
@@ -66,7 +67,7 @@ To view the scores attained by team members:
    ```
 For example:
    ```bash
-   @SlackKudosBot scores
+   @KudosBuddy scores
    ```
 
 ## Contributing
