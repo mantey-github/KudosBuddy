@@ -25,7 +25,7 @@ Follow these steps to set up and test the app in your Slack workspace.
    composer install
    ```
 
-3. Set up your environment variables by creating a .env file and adding the necessary configurations (e.g., Slack Bot API token, database settings).
+3. Set up your environment variables by creating a `.env` file and adding the necessary configurations (e.g. Slack Bot API token, Database settings).
 
 4. Generate the application key:
    ```bash
